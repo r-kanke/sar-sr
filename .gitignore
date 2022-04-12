@@ -1,0 +1,25 @@
+# exclude pycache
+__pycache__/
+.ipynb_checkpoints/
+
+# exclude data except sample data
+/data/*
+!/data/sample/
+
+# exclude log
+/log/
+
+# exclude model except best model
+/model/*
+!/model/full_dataset/srgan_4x_20211226-152611_00078000_?.pth
+!/model/full_dataset/srgan_4x_20211225-181316_00063250_?.pth
+!/model/full_dataset/rcan_4x_20211221-135216_00054750_?.pth
+!/model/full_dataset/rcan_4x_20211218-154941_00062000_?.pth
+
+# exclude notenook
+/notebook/
+
+# exclude unnecessary files in src directory
+/src/runs/
+/src/trash/
+

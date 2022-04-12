@@ -1,0 +1,22 @@
+{
+    // Locate python interpreter
+    "python.defaultInterpreterPath": "~/anaconda3/envs/sr/bin/python",
+
+    // Excule dataset directory
+    "search.exclude": {
+        "**/sen12ms": true,
+    },
+    "files.watcherExclude": {
+        "**/sen12ms*/**": true,
+    },
+
+    // Show rulers
+    "editor.rulers": [72],
+    // Show white space
+    "editor.renderWhitespace": "trailing",
+    // Trim trailing white space when saving file
+    "files.trimTrailingWhitespace": false,
+    // Trim trainling white space by: Ctrl+k, Ctrl+x
+
+
+}
